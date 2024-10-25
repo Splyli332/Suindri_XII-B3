@@ -1,0 +1,98 @@
+/* fungsi selector/universal untuk mereset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#pembungkus {
+    
+    margin: 10px 0px;
+    width: 90%;
+    background-color: #F8F4E1;
+    border: 1px solid; 
+/* border */
+}
+
+.ya {
+    background-color: #543310;
+    color: aliceblue;
+    text-align: center;
+    height: 100%;
+    
+}
+
+.header {
+    background-color: rgb(209, 187, 187);
+    height: 50px;
+    /* position: fixed; */
+    
+}
+
+.content {
+background-color: #F8F4E1;
+display: flex;
+margin-top: 20px;
+}
+
+.sidebar-right {
+    background-color: #F8F4E1;
+    width: 50%;
+    margin: 10px;
+/* position: absolute;
+right: 0px; */
+/* position: relative;
+right: 100px; */
+}
+
+
+
+.sidebar-left {
+    background-color: #F8F4E1;
+    width: 50%;
+    height: 50%; 
+    margin: 10px;
+     /* margin ; 50px */
+    /* position : relative ; 
+    left : 100px */
+}
+
+.flex-container>a {
+display: flex;
+gap: 1rem;
+}
+
+img {
+    max-width: 40%;}
+
+.footer {
+    background-color: #AF8F6F;
+    margin-top: 10px;
+}
+ /* fungsi visited untuk membuat efek pada file yang aktif */
+
+a :visited {
+    color : rgb(255, 212, 212);
+}
+
+/* fungsi link membuat efel pada file, yang belum sama sekali aktif */
+
+
+ol,
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+a { 
+    color: #06061a;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.header>ol>li>a:hover {
+  border-radius: 2px;
+  color:#FFEFE8;
+}
